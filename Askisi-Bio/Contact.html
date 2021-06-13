@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/styleask.css" type="text/css"/>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--<form method="get" action="index.html">
+            <button type="submit">Homepage</button>
+          </form>-->
+    <div class="top">
+    <table width="15%">
+      <tr>
+        <td>
+          <a class="button darkGrey rounded" href="index.html">Home</a>
+        </td>
+        <td>
+          <a class="button darkGrey rounded" href="Bio.html">Bio</a>
+        </td>
+        
+      </tr>
+    </table>
+    </div>
+    
+
+    <h2><u>My Contact Details</u></h2>
+    <ul>
+      <li><strong>First Name::</strong> Kyriakos</li>
+      <li><strong>Last Name:</strong> Theofanous</li>
+      <li>
+        <strong>Date of birth and place:</strong> 10 August 1987, Athens Greece
+      </li>
+      <li><strong>Nationality:</strong> Greek / Cypriot</li>
+      <li><strong>Telephone Number:</strong> +49 12345678910</li>
+      <li><strong>E-Mail:</strong> kyriko@gmail.de</li>
+      <li><strong>Adress:</strong> My Home in my Town in my fantastic World</li>
+    </ul>
+    
+
+    <h2><u>Contact Form</u></h2>
+
+    <form
+      action="mailto:theofanous.k@hotmail.de"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="">Your Name:</label>
+      <input
+        type="text"
+        name="yourName"
+        value=""
+        placeholder="Write your Name*"
+        maxlength="10"
+        required
+      />
+      <label for="">Your Surname:</label>
+      <input
+        type="text"
+        name="yourSurname"
+        value=""
+        placeholder="Write your Surname*"
+        maxlength="10"
+        required/>
+      <br />
+      <label for="">Your Birthday:</label>
+      <input type="date" />
+      <label for="">Gender:</label>
+      <label> <input type="radio" name="gender" />Man </label>
+      <label> <input type="radio" name="gender" />Woman </label>
+      <label> <input type="radio" name="gender" />Other </label>
+      <br />
+      <label for="">Your Email:</label>
+      <input
+        type="email"
+        name="yourEmail"
+        id=""
+        placeholder="write your email*"
+        required
+      />
+      <label for="">Your Password:</label>
+      <input type="password" required /><br />
+      <label> Do you want to sign up to the email list?</label>
+      <input type="checkbox" name="" id="" /><br />
+      <label> Choose File to Upload</label>
+      <input type="file" name="Choose File" id="" /><br />
+      <label for="Your Message"></label>
+      <textarea
+        name="yourMessage"
+        id=""
+        cols="70"
+        rows="10"
+        maxlength="500"></textarea>
+      
+      <br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Delete all" />
+    </form>
+  </body>
+</html>

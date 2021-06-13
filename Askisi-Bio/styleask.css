@@ -1,0 +1,186 @@
+  /********************TAG SELECTORS*******************/
+      
+      body {
+      background-color: #525252;
+      margin: 0;
+      color: whitesmoke;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      
+    }
+    
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: white;
+      border-width: 5px;
+      height: 0px;
+      width: 10%;
+      
+    }
+    h1 {
+        color:white;
+        margin-top: 0;
+        font-family: 'Indie Flower', cursive;
+    }
+    h2 h3 h4 {
+        color: white;
+        margin-top: 0;
+        font-family: 'Merriweather', serif;
+    }
+    
+    table {
+        text-align: center;
+        margin: 0 auto;
+    }
+    ul {
+        display: inline-block;
+        
+        vertical-align: middle;
+        margin: 20 auto;
+    }
+
+    ol {
+        display:inline-block;
+        
+        vertical-align: middle;
+        margin: 20 auto;
+    }
+
+    a {
+        color: whitesmoke;
+    }
+
+    footer {
+        background-color: #323232;
+    }
+    
+    
+    /********************CLASS SELECTORS******************/
+
+    .top {
+        background-color: #323232;
+    }
+    .cv {
+        display: inline-block;
+        padding-right: 10px;    
+    }
+    .contact {
+        display: inline-block;
+        padding-right: 10px
+    }
+    
+    .background{
+        background-image: url(web.jpg);
+        background-position: center;
+        height: 700px;
+    }
+    .kyriko{
+        position: relative;
+        top: 50px;
+
+    }
+    .description{
+        position: relative;
+        top: 400px
+    }
+
+    .links {
+        
+        color: whitesmoke;
+
+    }
+
+
+.cover1{
+ position:absolute;
+ top:0px;
+ left:0px;
+ width:110px;
+ height:40px; 
+  -ms-transform:translateX(-120px);
+  -webkit-transform: translateX(-120px);
+ transform:translateX(-120px);
+ transition:all 0.5s ease-in-out;
+}
+
+
+/* .button background colors */
+
+#twitter {
+  background-color:rgba(85, 172, 238,1);
+}
+
+#facebook {
+  background-color:rgb(66, 103, 178);
+}
+
+#google {
+  background-color:rgb(221, 75, 57);
+}
+
+#youtube {
+   background-color:rgb(179, 18, 23);
+}
+
+#instagram {
+   background-color:rgb(63, 114, 155);
+}
+
+#github {
+   background-color:rgb(153, 153, 153);
+}
+
+#pinterest {
+   background-color:rgb(204, 33, 39);
+}
+
+.fa {
+  color:white;
+  margin-top:15px;
+}
+
+a {
+  text-decoration:none;
+}
+
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 25px;
+  transition: all .1s;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 15px;
+  color: #111;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+  background-color: #ccc;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-color: #202020 #1a1a1a #111;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #efefef, #777);
+  background-image: -moz-linear-gradient(top, #efefef, #777);
+  background-image: -o-linear-gradient(top, #efefef, #777);
+  background-image: linear-gradient(to bottom, #efefef, #777);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  background-color: #aaaaaa;
+  background-image: -webkit-linear-gradient(top, #ccc, #555);
+  background-image: -moz-linear-gradient(top, #ccc, #555);
+  background-image: -o-linear-gradient(top, #ccc, #555);
+  background-image: linear-gradient(to bottom, #ccc, #555);
+}
+.button:active, .button.active {
+  background-color: #b42f32;
+  border-color: #1c1c1c #202020 #222;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.rounded {border-radius:100em;}
